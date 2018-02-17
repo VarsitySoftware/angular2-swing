@@ -120,7 +120,9 @@ export interface StackConfig {
    * @param {Number} throwOutConfidence config.throwOutConfidence
    * @return {Boolean}
    */
-  isThrowOut?: (offset: number, element: HTMLElement, throwOutConfidence: number) => boolean;
+  //isThrowOut?: (offset: number, element: HTMLElement, throwOutConfidence: number) => boolean;
+   isThrowOut?: (offset: number, element: HTMLElement, throwOutConfidence: number, lastTranslateX: number, lastTranslateY: number, deltaX: number, deltaY: number) => boolean;
+   
 
   /**
    * Returns a value between 0 and 1 indicating the completeness of the throw out condition.
