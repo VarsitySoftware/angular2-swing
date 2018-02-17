@@ -2,7 +2,7 @@
 // module are specified. Normally they should be at DefinitelyTyped
 // or better with the repository
 declare var require: any;
-const Swing = require('https://github.com/VarsitySoftware/swing');
+const Swing = require('varsity-software-swing');
 
 export interface ThrowEvent {
   /**
