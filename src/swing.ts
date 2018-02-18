@@ -172,7 +172,7 @@ export interface StackConfig {
    ////////////////////////////////////
    // UPDATED TRANSFORM FUNCTION TO RETURN MORE ELEMENTS
    // by JOHN WEAVER ON 2/16/2018
-   /transform?: (element: HTMLElement, x: number, y: number, r: number) => void; 
+   // transform?: (element: HTMLElement, x: number, y: number, r: number) => void; 
    /////////////////////////////////////
   
   transform?: (element: HTMLElement, x: number, y: number, r: number, currentX: number, currentY: number, lastTranslateX: number, lastTranslateY: number) => void;
